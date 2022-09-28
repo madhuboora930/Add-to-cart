@@ -1,10 +1,15 @@
 import React from 'react'
+import { HeroSection } from './components/HeroSection'
 
-export const About = () => {
+export const About = ({myData}) => {
+  console.log(myData);
+  
+
+
   return (
     <div>
-        <h1>Abouts</h1>
-
+        <HeroSection/>
+        
     </div>
   )
 }
