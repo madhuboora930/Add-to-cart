@@ -1,14 +1,13 @@
 import React from 'react'
 import { HeroSection } from './components/HeroSection'
 
-export const About = ({myData}) => {
-  console.log(myData);
-  
-
-
+export const About = () => {
+  const data = {
+    name: "Madhu Ecommerce",
+  };
   return (
     <div>
-        <HeroSection/>
+        <HeroSection myData={data}/>
         
     </div>
   )
