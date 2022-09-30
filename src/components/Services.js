@@ -5,7 +5,7 @@ import { GiReceiveMoney } from "react-icons/gi";
 import { RiSecurePaymentLine } from "react-icons/ri";
 
 export const Services = () => {
-    const Wrapper=styled.section`
+    const Wrapper = styled.section`
     padding: 9rem 0;
   .grid {
     gap: 4.8rem;
@@ -60,35 +60,35 @@ export const Services = () => {
     color: #5138ee;
   }
 `;
-  return (
-    <Wrapper>
-        <div className="container">
-            <div className="grid grid-three-column">
-                <div className="services-1">
-                    <div>
-                   < TbTruckDelivery className="icon"/>
-                   <h3>Super Fast and Free Delivery</h3>
+    return (
+        <Wrapper>
+            <div className="container">
+                <div className="grid grid-three-column">
+                    <div className="services-1">
+                        <div>
+                            < TbTruckDelivery className="icon" />
+                            <h3>Super Fast and Free Delivery</h3>
+                        </div>
                     </div>
-                </div>
-                <div className="services-2">
-                    <div className="services-colum-2">
-                        <MdSecurity className="icon"/>
-                        <h3>Non-contact Shipping</h3>
+                    <div className="services-2">
+                        <div className="services-colum-2">
+                            <MdSecurity className="icon" />
+                            <h3>Non-contact Shipping</h3>
+                        </div>
+                        <div className="services-colum-2">
+                            <GiReceiveMoney className="icon" />
+                            <h3>Money-back Guaranteed</h3>
+                        </div>
                     </div>
-                    <div className="services-colum-2">
-                        <GiReceiveMoney className="icon"/>
-                        <h3>Money-back Guaranteed</h3>
-                    </div>
-                </div>
-                <div className="service-3">
-                    <div>
-                        <RiSecurePaymentLine className="icon"/>
-                        <h3>Super Secure Payment System</h3>
+                    <div className="service-3">
+                        <div>
+                            <RiSecurePaymentLine className="icon" />
+                            <h3>Super Secure Payment System</h3>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </Wrapper>
-  )
+        </Wrapper>
+    )
 }

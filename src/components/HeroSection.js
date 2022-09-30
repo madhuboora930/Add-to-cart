@@ -6,35 +6,35 @@ import { Button } from '../styles/Button';
 
 export const HeroSection = ({ myData }) => {
     console.log(myData);
-        const { name } = myData;
-      
-  return (
-    <Wrapper>
-        <div className="container" >
-            <div className="grid grid-two-column">
-                <div className="hero-section-data">
-                    <p className="intro-data">Welcome to</p>
-                    <h1>{name}</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Molestias atque temporibus doiorribus libero ad error omins voluptates animi! Suscipit sapiente.
-                    </p>
-                    <NavLink>
-                        <Button>Shop now</Button>
-                    </NavLink>
-                </div>
-                {/* our Home page image */}
-                <div className="hero-section-image">
-                    <figure>
-                        <img src="images/hero.jpg" alt="hero-section-photo" className="image-style"/> 
-                    </figure>
+    const { name } = myData;
+
+    return (
+        <Wrapper>
+            <div className="container" >
+                <div className="grid grid-two-column">
+                    <div className="hero-section-data">
+                        <p className="intro-data">Welcome to</p>
+                        <h1>{name}</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Molestias atque temporibus doiorribus libero ad error omins voluptates animi! Suscipit sapiente.
+                        </p>
+                        <NavLink>
+                            <Button>Shop now</Button>
+                        </NavLink>
+                    </div>
+                    {/* our Home page image */}
+                    <div className="hero-section-image">
+                        <figure>
+                            <img src="images/hero.jpg" alt="hero-section-photo" className="image-style" />
+                        </figure>
+                    </div>
                 </div>
             </div>
-        </div>
-    </Wrapper>
-  )
+        </Wrapper>
+    )
 };
-const Wrapper=styled.section`
+const Wrapper = styled.section`
 padding: 12rem 0;
 img {
   min-width: 10rem;

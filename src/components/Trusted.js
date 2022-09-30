@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 export const Trusted = () => {
-  const Wrapper =styled.section`
+  const Wrapper = styled.section`
   padding: 9rem 0;
   background-color: ${({ theme }) => theme.colors.bg};
   .brand-section {
@@ -43,28 +43,20 @@ export const Trusted = () => {
         <div className="brand-section-slider">
           {/* my 1st img */}
           <div className="slide">
-            <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image2.png" alt="trusted-brands"/>
+            <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image2.png" alt="trusted-brands" />
           </div>
           <div className="slide">
-          <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image3.png" alt="trusted-brands"/>
+            <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image3.png" alt="trusted-brands" />
           </div>
           <div className="slide">
-          <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image4.png" alt="trusted-brands"/>
+            <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image4.png" alt="trusted-brands" />
           </div>
           <div className="slide">
-          <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image6.png" alt="trusted-brands"/>
+            <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image6.png" alt="trusted-brands" />
           </div>
           <div className="slide">
-          <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image8.png" alt="trusted-brands"/>
+            <img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image8.png" alt="trusted-brands" />
           </div>
-          
-          
-
-          
-
-          
-
-
         </div>
       </div>
     </Wrapper>
