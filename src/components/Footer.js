@@ -114,8 +114,10 @@ export const Footer = () => {
                         <div>
                             <FaDiscord className="icons"/>
                         </div>
+                        <div className='footer-social-icons'>
                         <div>
                           <FaInstagram className='icons'/>
+                        </div>
                         </div>
                         <div>
                           <a
@@ -127,7 +129,7 @@ export const Footer = () => {
                 </div>
                 <div className="footer-contact">
               <h3>Call Us</h3>
-              <h3>+91 12345678978</h3>
+              <h3>+91 12345678912</h3>
             </div>
           </div>
           <div className="footer-bottom--section">
