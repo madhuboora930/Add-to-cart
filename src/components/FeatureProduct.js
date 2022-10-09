@@ -22,10 +22,7 @@ if(isLoading){
           })}
         </div>
       </div>
-      
-      
-
-    </Wrapper>
+      </Wrapper>
   )
 }
 const Wrapper = styled.section`
